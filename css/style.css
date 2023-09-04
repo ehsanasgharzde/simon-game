@@ -1,0 +1,55 @@
+/* ------------------------ ROOT ------------------------ */
+:root {
+    --background-color: #161853;
+    --font-color: #EADCA6;
+
+    --font-family: 'Press Start 2P', cursive;
+}
+
+/* ------------------------ BODY ------------------------ */
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+
+    font-family: var(--font-family);
+
+    text-align: center;
+}
+
+button {
+    border: 10px solid;
+    border-radius: 35px;
+
+    height: 256px;
+    width: 256px;
+
+    margin: 20px 15px;
+}
+
+/* ------------------------ SCOREBOARD ------------------------ */
+.scoreboard {
+    padding: 30px;
+}
+
+/* ------------------------ BUTTON ------------------------ */
+.green {
+    background-image: url("../image/green.png");
+}
+
+.red {
+    background-image: url("../image/red.png");
+}
+
+.yellow {
+    background-image: url("../image/yellow.png");
+}
+
+.blue {
+    background-image: url("../image/blue.png");
+}
+
+/* ------------------------ JQUERY CLASSES ------------------------ */
+.pressed {
+    border-color: #ffffff;
+    opacity: 0.5;
+}
